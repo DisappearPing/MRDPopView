@@ -59,9 +59,9 @@ class SecondViewController: UIViewController,UICollectionViewDelegate,UICollecti
         self.view.addSubview(popview)
 //        popview.addSubview(innerCollectionView)
     
-        popview.snp_makeConstraints { (make) -> Void in
-            make.trailing.equalTo(self.view)
-        }
+//        popview.snp_makeConstraints { (make) -> Void in
+//            make.trailing.equalTo(self.view)
+//        }
         
     }
 
